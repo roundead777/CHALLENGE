@@ -1,0 +1,214 @@
+body {
+    
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #7D6EB3;
+
+
+    /*background: rgb(22,0,36);
+    background: linear-gradient(#49165e, #8d6db1, #c5b6f3);*/
+
+}
+
+
+header {
+  width: 100%;
+  height: 5px;
+}
+
+
+main {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+
+}
+
+.logo {
+    margin: 20px 40px;
+    margin-left: 80px;
+}
+
+.input-texto {
+
+    padding:  12px;
+    background: #c5b6f3;
+    font-size: 20px;
+    margin-top: 110px;
+    border-radius: 24px;
+    border-color: #ebbbff;
+    box-shadow: 10px 10px 10px 0 #3f0e53;
+    outline: none;
+}
+
+
+.input-texto::placeholder {
+
+    font-size: 20px;
+    color: #49165e;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    font-size: 25px;
+    text-align: center;
+    margin:0 0 24px;
+    background-color: #49165e;
+    color: white;
+    width: 250px;
+    height: 67px;
+    padding: 15px 0;
+    border: none;
+    border-radius: 24px;
+    column-gap: 8px;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+    background: #8d6db1;
+    color: #49165e;
+    transform: scale(1.2);
+}
+
+.desencriptar {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 220px;
+    background-color: #b4a3e4;
+    color: white;
+    width: 250px;
+    height: 67px;
+    padding: 15px 0;
+    border: none;
+    border-radius: 24px;
+    column-gap: 8px;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.desencriptar:hover {
+    background: #49165e;
+    color: #c5b6f3;
+    transform: scale(1.2);
+}
+
+.texto-digitado {
+
+}
+
+.copiar {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 63px;
+    margin-top: 50px;
+    background-color: mediumpurple;
+    color: #49165e;
+    width: 328px;
+    height: 67px;
+    padding: 15px 0;
+    border: none;
+    border-radius: 24px;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+
+.copiar:hover {
+    background: darkviolet;
+    color: #c5b6f3;
+    transform: scale(1.2);
+}
+
+
+.mensagem {
+    padding:  12px;
+    font-size: 20px;
+    position: flex;
+    margin-left: 10%;
+    border-radius: 24px;
+    border-color: #c5b6f3;
+    box-shadow: 10px 10px 10px 0 #3f0e53;
+    outline: none;
+    background-color: #C5B6F3;
+
+}
+.mensagem::placeholder {
+
+    background-image: url("gastly2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 440px;
+    text-align: center;
+    font-size: 20px;
+    color: #49165e;
+}
+.alerta-imagem {
+    margin-left: 4%;
+    margin-bottom: auto;
+    display: inline;
+    margin-right: 5px;
+
+}
+
+.aviso { 
+    display: inline;
+
+}
+
+.informacao {
+    font-size: 20px;
+    display: inline;
+    margin-left: 0;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+footer {
+    text-align: center;
+    background-color: #49165e;
+    width: 100%;
+    height: 120px;
+}
+
+
+.github-rodape {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    }
+
+.linked-rodape {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    }
+
+.insta-rodape {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 95px;
+    height: 95px;
+}
