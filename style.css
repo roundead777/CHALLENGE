@@ -7,7 +7,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     line-height: 150%;
-    background-image: url("background.jpg");
+    background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -156,7 +156,7 @@ main {
 }
 .mensagem::placeholder {
 
-    background-image: url("gastly2.gif");
+    background-image: url("img/gastly2.gif");
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 440px;
